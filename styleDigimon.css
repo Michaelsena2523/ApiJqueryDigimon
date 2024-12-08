@@ -24,12 +24,13 @@ body{
    flex-direction: column;
    gap: 10px; 
 
-
+  
 }
 
 img{
     cursor: pointer;
     border-radius:  200px;
+  
 }
 
 .imagen:hover{
