@@ -1,0 +1,66 @@
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./img/fondoDigimon.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.contenedor{
+   width: 20%;
+   margin-top: 50px;
+   text-align: center;
+   font-weight: bold;
+   display: flex;
+   flex-direction: column;
+   gap: 10px; 
+
+
+}
+
+img{
+    cursor: pointer;
+    border-radius:  200px;
+}
+
+.imagen:hover{
+    box-sizing:  10px 10px black ;
+}
+
+
+button{
+    padding: 5px 20px;
+    background-color: rgb(78, 194, 78);
+    border-radius: 5px;
+}
+input{
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: 18px
+
+}
+
+p{
+    font-size: 25px;
+}
+
+button:hover{
+background-color: rgb(107, 202, 107);
+}
+
+button:active{
+    background-color: rgb(125, 209, 125);
+}
+
+img{
+    box-shadow: 25px 25px 100px white ;
+}
